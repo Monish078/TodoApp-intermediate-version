@@ -20,3 +20,56 @@ Spring Boot
 JPA
 PostgreSQL/MySQL
 REST APIs
+
+
+Todo App Features
+Basic Version
+
+✅ Create Todo
+✅ Get All Todos
+✅ Get Todo By ID
+✅ Update Todo
+✅ Delete Todo
+
+
+Intermediate Version
+
+✅ Validation
+✅ Exception Handling
+✅ DTO
+✅ Pagination
+✅ Sorting
+
+
+Advanced Version
+
+✅ Spring Security + JWT
+✅ User-wise Todos
+
+Project Structure
+src/main/java
+
+com.todo
+
+├── controller
+│     └── TodoController
+│
+├── service
+│     ├── TodoService
+│     └── TodoServiceImpl
+│
+├── repository
+│     └── TodoRepository
+│
+├── entity
+│     └── Todo
+│
+├── dto
+│     ├── TodoRequest
+│     └── TodoResponse
+│
+├── exception
+│     ├── ResourceNotFoundException
+│     └── GlobalExceptionHandler
+│
+└── TodoApplication
